@@ -1,0 +1,56 @@
+html, body, #app{
+  height: 100%;
+}
+
+.flex{
+  display: flex;
+}
+
+.center{
+  justify-content: center;
+  align-items: center;
+}
+
+.center_column{
+  align-items: center;
+}
+
+.center_row{
+  justify-content: center;
+}
+
+.center_margin{
+  margin: 0 auto;
+}
+
+.direction_column{
+  flex-direction: column;
+}
+
+.between{
+  justify-content: space-between;
+}
+
+.around{
+  justify-content: space-around;
+}
+
+.grow{
+  flex-grow: 1;
+}
+
+.warp{
+  flex-wrap: wrap;
+}
+
+.full_height{
+  height: 100%;
+}
+
+.full_width{
+  width: 100%;
+}
+
+.fontC_white{
+  color: white;
+}
